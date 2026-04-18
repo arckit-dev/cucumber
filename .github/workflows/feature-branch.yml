@@ -2,20 +2,6 @@
 name: Feature branch
 
 on:
-  push:
-    branches:
-      - 'build/*'
-      - 'chore/*'
-      - 'ci/*'
-      - 'renovate/*'
-      - 'docs/*'
-      - 'feat/*'
-      - 'fix/*'
-      - 'perf/*'
-      - 'refactor/*'
-      - 'revert/*'
-      - 'style/*'
-      - 'test/*'
   pull_request:
     branches:
       - main
