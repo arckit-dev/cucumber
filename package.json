@@ -12,13 +12,7 @@
   "bugs": {
     "url": "https://github.com/arckit/cucumber/issues"
   },
-  "keywords": [
-    "arckit",
-    "cucumber",
-    "bdd",
-    "testing",
-    "data-table"
-  ],
+  "keywords": ["arckit", "cucumber", "bdd", "testing", "data-table"],
   "type": "module",
   "exports": {
     ".": {
@@ -35,9 +29,7 @@
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "sideEffects": false,
   "engines": {
     "node": ">=22"
