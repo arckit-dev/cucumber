@@ -1,7 +1,8 @@
 import { describe, expect, it } from 'vitest';
 import { assertMatchesDataTable } from './assert-matches-data-table';
 
-const dataTable = (rows: [string, string][]) => ({ rows: () => rows }) as unknown as Parameters<typeof assertMatchesDataTable>[0];
+const dataTable = (rows: [string, string][]) =>
+  ({ rows: () => rows }) as unknown as Parameters<typeof assertMatchesDataTable>[0];
 
 describe('assertMatchesDataTable', () => {
   it('should match flat properties', () => {
@@ -28,9 +29,7 @@ describe('assertMatchesDataTable', () => {
       ['lines[1].label', 'Conseil']
     ]);
 
-    expect(() =>
-      assertMatchesDataTable(table)({ lines: [{ label: 'Prestation' }, { label: 'Conseil' }] })
-    ).not.toThrow();
+    expect(() => assertMatchesDataTable(table)({ lines: [{ label: 'Prestation' }, { label: 'Conseil' }] })).not.toThrow();
   });
 
   it('should match deeply nested properties', () => {
