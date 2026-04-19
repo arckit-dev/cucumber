@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/arckit-dev/cucumber/compare/v1.0.0...v1.0.1) (2026-04-19)
+
+
+### Bug Fixes
+
+* disable hash in tsdown output for stable DTS filenames ([a8402fe](https://github.com/arckit-dev/cucumber/commit/a8402fefa9f6d9d1b1246b64d869c61ecee15a54))
+
 # 1.0.0 (2026-04-19)
 
 

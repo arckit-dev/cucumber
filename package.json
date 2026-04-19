@@ -1,6 +1,6 @@
 {
   "name": "@arckit/cucumber",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cucumber.js testing utilities for BDD step definitions",
   "packageManager": "pnpm@10.33.0",
   "license": "MIT",
