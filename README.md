@@ -5,6 +5,7 @@ Cucumber.js testing utilities for BDD step definitions.
 [![npm version](https://img.shields.io/npm/v/@arckit/cucumber)](https://www.npmjs.com/package/@arckit/cucumber)
 [![npm downloads](https://img.shields.io/npm/dm/@arckit/cucumber)](https://www.npmjs.com/package/@arckit/cucumber)
 [![bundle size](https://img.shields.io/bundlephobia/minzip/@arckit/cucumber)](https://bundlephobia.com/package/@arckit/cucumber)
+[![codecov](https://codecov.io/gh/arckit-dev/cucumber/graph/badge.svg)](https://codecov.io/gh/arckit-dev/cucumber)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Cucumber](https://img.shields.io/badge/Cucumber-BDD-23D96C?logo=cucumber&logoColor=white)](https://cucumber.io/)
 
