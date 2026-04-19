@@ -111,6 +111,15 @@ pnpm test
 
 <h2 id="cicd">🔄 CI/CD</h2>
 
+### Required Secrets
+
+The following secrets must be configured at the organization level (`arckit-dev`) in GitHub: Settings → Secrets and variables → Actions.
+
+| Secret | Description | How to obtain |
+|--------|-------------|---------------|
+| `NPM_TOKEN` | npm granular access token scoped to `@arckit` | [npmjs.com](https://www.npmjs.com/) → Access Tokens → Granular Access Token (read and write on `@arckit` scope) |
+| `CODECOV_TOKEN` | Codecov upload token | [app.codecov.io](https://app.codecov.io/gh/arckit-dev/cucumber/config/general) → Repository upload token |
+
 ### Workflows
 
 | Workflow | Trigger | Description |
