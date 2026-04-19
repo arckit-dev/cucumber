@@ -90,8 +90,8 @@ pnpm test
 
 1. Create a branch from `main` with a conventional prefix
 2. Make your changes and commit
-3. Push your branch — CI runs automatically
-4. Open a Pull Request to merge into `main`
+3. Open a Pull Request to merge into `main` — CI runs automatically
+4. Get review and merge
 
 <h2 id="built-with">🏗️ Built With</h2>
 
@@ -107,6 +107,7 @@ pnpm test
 - [Husky](https://typicode.github.io/husky/): git hooks for automatic checks
 - [Commitlint](https://github.com/conventional-changelog/commitlint): conventional commits validation
 - [Lint-staged](https://github.com/okonet/lint-staged): linters on staged git files
+- [Codecov](https://codecov.io/): code coverage reporting
 
 <h2 id="cicd">🔄 CI/CD</h2>
 
@@ -114,7 +115,7 @@ pnpm test
 
 | Workflow | Trigger | Description |
 |----------|---------|-------------|
-| [CI](.github/workflows/ci.yml) | Push to `main` / PR | Lint, type-check, test, build, package quality checks |
+| [CI](.github/workflows/ci.yml) | Push to `main` / PR | Lint, type-check, test, build, package quality checks, coverage upload to [Codecov](https://codecov.io/gh/arckit-dev/cucumber) |
 | [Release](.github/workflows/release.yml) | Push to `main` | Build and publish to npm via [semantic-release](https://semantic-release.gitbook.io/) |
 
 <h2 id="versioning">🏷️ Versioning</h2>
