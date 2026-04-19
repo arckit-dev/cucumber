@@ -111,6 +111,10 @@ pnpm test
 
 <h2 id="cicd">🔄 CI/CD</h2>
 
+### Repository Setup
+
+Enable **Dependency graph** in the repository settings: Settings → Security and quality → Advanced Security → Dependency graph → Enable. This is required for the dependency review CI job to work on pull requests.
+
 ### Required Secrets
 
 The following secrets must be configured at the organization level (`arckit-dev`) in GitHub: Settings → Secrets and variables → Actions.
