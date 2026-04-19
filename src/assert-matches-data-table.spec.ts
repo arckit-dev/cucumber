@@ -62,6 +62,12 @@ describe('assertMatchesDataTable', () => {
     expect(() => assertMatchesDataTable(table)({ name: {} })).not.toThrow();
   });
 
+  it('should resolve to "undefined" when intermediate path is null', () => {
+    const table = dataTable([['address.city', 'undefined']]);
+
+    expect(() => assertMatchesDataTable(table)({ address: null })).not.toThrow();
+  });
+
   it('should convert numeric values to strings for comparison', () => {
     const table = dataTable([['amount', '15000']]);
 
